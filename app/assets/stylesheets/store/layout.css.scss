@@ -1,0 +1,23 @@
+@import 'compass';
+@import 'compass/css3';
+
+@import './variables';
+
+.product-image {
+  a {
+   // @include border-radius(145px);
+    @include transition-duration(0.3s);
+    float: left;
+    display: block;
+    position: relative;
+    display: block;
+    background-color: white;
+    border: 5px solid lighten($c_green, 15);
+    padding: 20px;
+    overflow: hidden;
+
+    img {
+     // @include border-radius(75px);
+    }
+  }
+}
