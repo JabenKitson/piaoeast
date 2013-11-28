@@ -51,3 +51,4 @@ gem 'spree_fancy', :github => 'spree/spree_fancy', :branch => '2-1-stable'
 group :production do
   gem 'pg'
 end
+gem 'nokogiri'
