@@ -9,7 +9,7 @@
     <ul>
       <% @slider_products.each do |product| %>
         <li style="padding:0;margin:0;height:250px;overflow:hidden">
-        	<img style="padding:0;margin:0" src="/assets/slider/<%=image_names[Random.rand(image_names.size)]%>"></img>
+        	<%= image_tag "slider/#{image_names[Random.rand(image_names.size)]}"%>
         </li>
         <li>
           <div class="product-image">
